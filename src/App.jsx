@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Project from "./components/Project";
-import ChooseMe from "./components/chooseMe";
+import ChooseMe from "./components/ChooseMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
