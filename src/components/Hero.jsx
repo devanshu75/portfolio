@@ -16,7 +16,7 @@ const Hero = () => {
           Frontend Developer | UI Engineer
         </p>
         <a
-          href="src/assets/Devanshu-UI-Developer.pdf"
+          href="/Devanshu-UI-Developer.pdf"
           className="inline-block my-2 px-4 py-2 bg-blue-500 text-white shadow rounded"
           target="_blank"
         >
