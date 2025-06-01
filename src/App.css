@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --color-blue-400: #146ef5;
+  --text-size: 2.5rem;
+}
+
+@layer utilities {
+  @keyframes morph {
+    0% {
+      border-radius: 42% 58% 68% 32% / 43% 35% 65% 57%;
+    }
+    25% {
+      border-radius: 58% 42% 35% 65% / 68% 43% 32% 57%;
+    }
+    50% {
+      border-radius: 68% 32% 42% 58% / 65% 57% 43% 35%;
+    }
+    75% {
+      border-radius: 35% 65% 58% 42% / 32% 68% 57% 43%;
+    }
+    100% {
+      border-radius: 42% 58% 68% 32% / 43% 35% 65% 57%;
+    }
+  }
+
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .animate-morph {
+  }
+
+  .animate-wave {
+    animation: wave 2s infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+  }
+}
