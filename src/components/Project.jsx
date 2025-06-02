@@ -146,6 +146,9 @@ const Project = () => {
                 <span className="bg-gray-200 text-gray-800 text-xs font-semibold px-3 py-1 rounded-full">
                   Tailwind
                 </span>
+                 <span className="bg-gray-200 text-gray-800 text-xs font-semibold px-3 py-1 rounded-full">
+                  dummyjson api
+                </span>
               </div>
               <div className="flex justify-between items-center">
                 <a
