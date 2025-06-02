@@ -134,7 +134,7 @@ const Project = () => {
             </div>
             <div className="p-6">
               <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-                Movie Search
+                Ecommerce 
               </h2>
               <p className="text-gray-600 text-sm mb-4">
                 A React app to search for movies using the OMDB API.
@@ -158,7 +158,7 @@ const Project = () => {
                   GitHub
                 </a>
                 <a
-                  href="https://rococo-donut-b24a2d.netlify.app/state"
+                  href="https://rococo-donut-b24a2d.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-500 transition group"
