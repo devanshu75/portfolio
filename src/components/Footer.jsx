@@ -73,23 +73,17 @@ const Footer = () => {
           {/* Right - Social Links */}
           <div className="flex flex-wrap justify-center md:justify-end gap-4">
             <motion.a
-              href="#facebook"
+              href="https://github.com/devanshu75"
+              target="_blank"
               className="text-white"
               variants={linkHover}
               whileHover="hover"
             >
-              Facebook
+              Github
             </motion.a>
             <motion.a
-              href="#instagram"
-              className="text-white"
-              variants={linkHover}
-              whileHover="hover"
-            >
-              Instagram
-            </motion.a>
-            <motion.a
-              href="#linkedin"
+              href="https://www.linkedin.com/in/devanshu-rana/"
+              target="_blank"
               className="text-white"
               variants={linkHover}
               whileHover="hover"
