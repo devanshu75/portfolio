@@ -5,7 +5,10 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col lg:flex-row min-h-screen w-full bg-gray-100" id="contact">
+    <section
+      className="flex flex-col lg:flex-row min-h-screen w-full bg-gray-100"
+      id="contact"
+    >
       {/* Left Form Section */}
       <div className="bg-white w-full lg:w-1/2 p-10 lg:p-20 flex flex-col justify-center">
         <h2 className="text-5xl font-extrabold leading-tight mb-2">
@@ -58,7 +61,9 @@ const Contact = () => {
             >
               <LuPhone />
             </motion.div>
-            <span className="text-lg font-medium mt-1">+91 8806408608</span>
+            <a href="tel:+918806408608" className="text-lg font-medium mt-1">
+              +91 8806408608
+            </a>
           </div>
 
           {/* Email */}
@@ -72,9 +77,12 @@ const Contact = () => {
             >
               <MdOutlineEmail />
             </motion.div>
-            <span className="text-lg font-medium mt-1">
+            <a
+              href="mailto:devanshurana75@gmail.com"
+              className="text-lg font-medium mt-1"
+            >
               devanshurana75@gmail.com
-            </span>
+            </a>
           </div>
         </div>
       </div>
