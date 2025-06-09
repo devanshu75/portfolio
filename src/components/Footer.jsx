@@ -60,14 +60,6 @@ const Footer = () => {
             >
               Projects
             </motion.a>
-            <motion.a
-              href="#blog"
-              className="text-white"
-              variants={linkHover}
-              whileHover="hover"
-            >
-              Blog
-            </motion.a>
           </div>
 
           {/* Right - Social Links */}
