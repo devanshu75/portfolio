@@ -35,11 +35,6 @@ const ResponsiveMenu = ({ open, setOpen }) => {
                   Projects
                 </a>
               </li>
-              <li>
-                <a href="#blog" onClick={handleClick}>
-                  Blog
-                </a>
-              </li>
             </ul>
           </div>
         </motion.div>
